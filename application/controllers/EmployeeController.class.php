@@ -5,7 +5,7 @@ class EmployeeController extends Controller{
 
     public function teamAction($team) {
 
-        
+        echo "test";
         //define("TEAM_NAME", $team);
         $_SESSION['team_name'] = $team;
 
@@ -16,6 +16,7 @@ class EmployeeController extends Controller{
     }
 
     public function homeAction() {
+
         $employeeModel = new EmployeeModel('business_solutions');
 
         $employees = $employeeModel->getEmployees();
