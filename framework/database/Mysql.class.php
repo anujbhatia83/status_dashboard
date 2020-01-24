@@ -28,9 +28,9 @@ class Mysql{
         //$this->conn = mysql_connect("$host:$port",$user,$password) or die('Database connection error');
        //$this->conn =  mysqli_connect($host, $user, $password, $dbname, $port) or die("Failed to connect to MySQL: ");
 
-        $this->conn=mysqli_connect("localhost", "employee_status", "employee_status", "employee_status", "3306") or die("Failed to connect to MySQL: ");
+        $this->conn=mysqli_connect("localhost", "im_presence", "im_presence", "im_presence", "3306") or die("Failed to connect to MySQL: ");
 
-       mysqli_select_db($this->conn, "employee_status") or die('Database selection error');
+       mysqli_select_db($this->conn, "im_presence") or die('Database selection error');
        //$this->setChar($charset);
 
     }
