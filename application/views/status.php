@@ -15,6 +15,7 @@
 				</h2>
 			<div class="container">
 			    <div class="row employees">
+					<div class="col-sm-2">made some changes</div>
 					<div class="col-sm-2">Name</div>
 					<div class="col-sm-2">Status</div>
 					<div class="col-sm-2">All Day</div>
